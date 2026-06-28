@@ -1,12 +1,11 @@
 <div align="center">
 
 # 🚨 India Road Accident Pattern Intelligence
-## *487,707 accidents. 177,175 deaths. One year. Most analysts just counted them.*
+### *487,707 accidents. 177,175 deaths. One year. Most analysts just counted them.*
 ### *This project asked why some states kill 10x more people per crash than others.*
 
 <br>
 
-<div align="center">
 <table width="100%">
 <tr>
 <td align="center" width="25%">📅<br><b>6 years</b><br><sub>2019 – 2024</sub></td>
@@ -15,11 +14,10 @@
 <td align="center" width="25%">📊<br><b>4 analysis modules</b><br><sub>Maps · Forecast · Stats · BI</sub></td>
 </tr>
 </table>
-</div>
 
 <br>
 
-[![Dashboard](https://img.shields.io/badge/📊%20VIEW%20DASHBOARD-POWER%20BI%20→-00d4aa?style=for-the-badge&labelColor=0d1529&color=00d4aa)](/outputs/Dashboard.png) [![Maps](https://img.shields.io/badge/🗺️%20LIVE%20MAPS-GITHUB%20PAGES%20→-E63946?style=for-the-badge&labelColor=0d1529&color=E63946)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html)
+[![Dashboard](https://img.shields.io/badge/📊%20VIEW%20DASHBOARD-POWER%20BI%20→-00d4aa?style=for-the-badge&labelColor=0d1529&color=00d4aa)](outputs/Dashboard.png) [![Maps](https://img.shields.io/badge/🗺️%20LIVE%20MAPS-GITHUB%20PAGES%20→-E63946?style=for-the-badge&labelColor=0d1529&color=E63946)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html)
 
 <br>
 
@@ -33,7 +31,7 @@
 ## 📸 Dashboard & Visuals
 
 ### 🧠 Power BI Intelligence Center
-<img src="/outputs/Dashboard.png" width="100%" />
+<img src="outputs/Dashboard.png" width="100%" />
 
 ### 🗺️ Two Maps. Same Country. Completely Different Stories.
 
@@ -41,7 +39,7 @@
 |---|---|
 | [![Risk Map](outputs/India_risk_map_pic.png)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html) | [![Accidents Map](outputs/India_accidents_map_pic.png)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_accidents_map.html) |
 
-*Hover any state for live stats · Click to open full interactive map*
+*Click to open full interactive map*
 
 ### 📉 Forecast 2025–2027
 <img src="outputs/forecast_chart.png" width="100%" />
@@ -54,9 +52,13 @@
 
 ## 🗄️ Data Sources
 
+<div align="center">
+
 ![Source](https://img.shields.io/badge/Source-Government%20Data%20Only-00d4aa?style=for-the-badge&labelColor=0d1529)
 ![Kaggle](https://img.shields.io/badge/Kaggle-Not%20Used-E63946?style=for-the-badge&labelColor=0d1529)
 ![Synthetic](https://img.shields.io/badge/Synthetic%20Data-None-E63946?style=for-the-badge&labelColor=0d1529)
+
+</div>
 
 | Dataset | Source | Coverage |
 |---|---|---|
@@ -70,8 +72,6 @@
 > ⚠️ 2024 data incorporated the **same month** MoRTH publicly released it (June 2026) — most current public analysis available.
 
 ---
-
-<div align="center">
 
 ## ⚡ The Numbers That Matter
 
@@ -111,6 +111,7 @@ Bihar kills someone in **8 out of 10 accidents.** Tamil Nadu in 3. Kerala in les
 03:00–06:00  ██░░░░░░░░░░░░░░  4.8%   ← safest
 18:00–21:00  █████████████████ 21.1%  ← 102,897 accidents
 ```
+
 Evening commute + low light + fatigue. One 3-hour window. 1 in 5 of all accidents.
 
 <br>
@@ -132,6 +133,7 @@ Speeding kills **32x more people** than drunk driving. Awareness campaigns are t
 ```
 r = -0.086  |  p = 0.68  |  ✗ NOT SIGNIFICANT
 ```
+
 Busier roads are **not** more deadly per crash. Bihar's crisis is trauma care access and road quality — not driver behaviour.
 
 **Accidents ↔ Fatalities: r = 0.816, p < 0.0001 ✓**
@@ -147,6 +149,7 @@ Busier roads are **not** more deadly per crash. Bihar's crisis is trauma care ac
 2023  ▲ 480,583
 2024  ▲ 487,707              (+31% from 2020)
 ```
+
 Fatality rate stuck at ~0.36 for 5 years. Road safety spend went up. Outcomes didn't move.
 
 <br>
@@ -239,6 +242,7 @@ sudo -u postgres psql -c "CREATE DATABASE road_accident_db;"
 <div align="center">
 
 **Shariq Mukadam** · Pune · BCA Final Year
+
 
 *All data from official MoRTH government publications. No Kaggle. No synthetic data.*
 
