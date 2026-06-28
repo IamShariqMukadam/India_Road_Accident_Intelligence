@@ -19,7 +19,7 @@
 
 <br>
 
-[![Dashboard](https://img.shields.io/badge/📊%20VIEW%20DASHBOARD-POWER%20BI%20→-00d4aa?style=for-the-badge&labelColor=0d1529&color=00d4aa)](/outputs/Pasted%20image.png) [![Maps](https://img.shields.io/badge/🗺️%20LIVE%20MAPS-GITHUB%20PAGES%20→-E63946?style=for-the-badge&labelColor=0d1529&color=E63946)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html)
+[![Dashboard](https://img.shields.io/badge/📊%20VIEW%20DASHBOARD-POWER%20BI%20→-00d4aa?style=for-the-badge&labelColor=0d1529&color=00d4aa)](/outputs/Dashboard.png) [![Maps](https://img.shields.io/badge/🗺️%20LIVE%20MAPS-GITHUB%20PAGES%20→-E63946?style=for-the-badge&labelColor=0d1529&color=E63946)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html)
 
 <br>
 
@@ -39,7 +39,7 @@
 
 | Fatality Rate *(what actually matters)* | Raw Accident Count *(what everyone shows)* |
 |---|---|
-| [![Risk Map](/outputs/india_risk_map.html)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html) | [![Accidents Map](/outputs/india_accidents_map.html)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_accidents_map.html) |
+| [![Risk Map](/outputs/India_risk_map_pic.png)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html) | [![Accidents Map](/outputs/India_accidents_map_pic.png)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_accidents_map.html) |
 
 *Hover any state for live stats · Click to open full interactive map*
 
@@ -242,8 +242,6 @@ sudo -u postgres psql -c "CREATE DATABASE road_accident_db;"
 <div align="center">
 
 **Shariq Mukadam** · Pune · BCA Final Year
-
-[![GitHub](https://img.shields.io/badge/GitHub-IamShariqMukadam-0d1529?style=for-the-badge&logo=github&logoColor=00d4aa)](https://github.com/IamShariqMukadam)
 
 *All data from official MoRTH government publications. No Kaggle. No synthetic data.*
 
