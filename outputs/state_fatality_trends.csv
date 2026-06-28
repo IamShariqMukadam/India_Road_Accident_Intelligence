@@ -1,0 +1,37 @@
+state,slope,r_squared,p_value,significant
+Maharashtra,792.1,0.79,0.0179,True
+Madhya Pradesh,772.9,0.947,0.0011,True
+Uttar Pradesh,634.1,0.429,0.158,False
+Bihar,527.7,0.848,0.0091,True
+Karnataka,471.6,0.608,0.0676,False
+Tamil Nadu,444.6,0.237,0.3278,False
+Chhattisgarh,424.4,0.884,0.0052,True
+Rajasthan,420.9,0.618,0.0637,False
+West Bengal,212.7,0.632,0.0587,False
+Odisha,212.4,0.651,0.0524,False
+Telangana,207.5,0.863,0.0074,True
+Gujarat,195.8,0.36,0.2079,False
+Jharkhand,152.5,0.457,0.1404,False
+Andhra Pradesh,148.9,0.328,0.2349,False
+Punjab,118.0,0.413,0.1691,False
+Assam,76.4,0.293,0.2677,False
+Uttarakhand,70.8,0.65,0.0528,False
+Delhi,41.3,0.295,0.2653,False
+Kerala,39.7,0.018,0.8012,False
+Mizoram,15.1,0.761,0.0233,True
+Ladakh,13.9,0.718,0.0333,True
+Arunachal Pradesh,11.8,0.423,0.1623,False
+Puducherry,11.7,0.511,0.1104,False
+Nagaland,8.5,0.607,0.0677,False
+Goa,5.5,0.096,0.5494,False
+Tripura,5.4,0.134,0.4748,False
+Meghalaya,3.9,0.149,0.4491,False
+D&N Haveli and Daman & Diu,3.8,0.401,0.1769,False
+Andaman & Nicobar Islands,2.1,0.611,0.0662,False
+Sikkim,1.0,0.015,0.8194,False
+Lakshadweep,0.0,0.004,0.9043,False
+Chandigarh,-3.3,0.109,0.5227,False
+Haryana,-7.1,0.004,0.9041,False
+Jammu and Kashmir,-8.5,0.028,0.7506,False
+Manipur,-16.1,0.829,0.0117,True
+Himachal Pradesh,-40.5,0.451,0.1441,False

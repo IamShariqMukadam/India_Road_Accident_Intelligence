@@ -1,0 +1,5 @@
+x,y,r,p_value,significant,strength,question
+accidents,fatalities,0.8161,0.0,True,Very Strong,Do more accidents = more deaths?
+log_accidents,fatality_rate_per_accident,-0.0861,0.6823,False,Weak,Does accident volume predict fatality rate?
+yoy_acc_pct,yoy_fat_pct,0.5326,0.0061,True,Strong,Do accident increases drive fatality increases?
+accident_share_pct,fatality_rate_per_accident,-0.2783,0.178,False,Weak,Do high-share states have worse rates?
