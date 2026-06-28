@@ -1,8 +1,8 @@
 <div align="center">
 
 # 🚨 India Road Accident Pattern Intelligence
-### *Bihar's roads are 10x more deadly than Kerala's. Raw accident counts hide this completely.*
-### *This project finds what headline statistics miss.*
+## *487,707 accidents. 177,175 deaths. One year. Most analysts just counted them.*
+### *This project asked why some states kill 10x more people per crash than others.*
 
 <br>
 
@@ -19,52 +19,55 @@
 
 <br>
 
-[![Dashboard](https://img.shields.io/badge/📊%20VIEW%20DASHBOARD-POWER%20BI%20→-FFFFFF?style=for-the-badge&labelColor=1C1C2E&color=FFFFFF)](outputs/Pasted%20image.png) [![Maps](https://img.shields.io/badge/🗺️%20LIVE%20MAPS-GITHUB%20PAGES%20→-FFFFFF?style=for-the-badge&labelColor=E63946&color=FFFFFF)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html)
-
-</div>
+[![Dashboard](https://img.shields.io/badge/📊%20VIEW%20DASHBOARD-POWER%20BI%20→-00d4aa?style=for-the-badge&labelColor=0d1529&color=00d4aa)](outputs/dashboard_screenshot.png) [![Maps](https://img.shields.io/badge/🗺️%20LIVE%20MAPS-GITHUB%20PAGES%20→-E63946?style=for-the-badge&labelColor=0d1529&color=E63946)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html)
 
 <br>
 
+> **Data:** MoRTH 2019–2024 · Official Government Reports · No Kaggle
+> **Updated:** June 2026 — 2024 data added the month it was released
+
+</div>
+
 ---
 
-## 📸 Dashboard Preview
+## 📸 Dashboard & Visuals
 
-### 🧠 Intelligence Center — *KPIs, risk ranking, state monitor*
+### 🧠 Power BI Intelligence Center
 <img src="outputs/dashboard_screenshot.png" width="100%" />
 
-### 🗺️ India Risk Map — *Normalized fatality rate by state*
-<img src="outputs/india_risk_map_screenshot.png" width="100%" />
+### 🗺️ Two Maps. Same Country. Completely Different Stories.
 
-### 📉 Forecast — *Prophet model 2025–2027*
+| Fatality Rate *(what actually matters)* | Raw Accident Count *(what everyone shows)* |
+|---|---|
+| [![Risk Map](outputs/india_risk_map_screenshot.png)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html) | [![Accidents Map](outputs/india_accidents_map_screenshot.png)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_accidents_map.html) |
+
+*Hover any state for live stats · Click to open full interactive map*
+
+### 📉 Forecast 2025–2027
 <img src="outputs/forecast_chart.png" width="100%" />
 
-### 🔥 Correlation Matrix — *Statistical relationships*
+### 🔥 Correlation Matrix · 📐 Regression Analysis
 <img src="outputs/correlation_heatmap.png" width="100%" />
-
-### 📐 Regression Analysis — *OLS scatter plots, all states labeled*
 <img src="outputs/regression_scatter.png" width="100%" />
 
 ---
 
 ## 🗄️ Data Sources
 
-![Source](https://img.shields.io/badge/Source-Government%20Data%20Only-success?style=for-the-badge)
-![Kaggle](https://img.shields.io/badge/Kaggle-Not%20Used-red?style=for-the-badge)
-![Synthetic](https://img.shields.io/badge/Synthetic%20Data-None-red?style=for-the-badge)
+![Source](https://img.shields.io/badge/Source-Government%20Data%20Only-00d4aa?style=for-the-badge&labelColor=0d1529)
+![Kaggle](https://img.shields.io/badge/Kaggle-Not%20Used-E63946?style=for-the-badge&labelColor=0d1529)
+![Synthetic](https://img.shields.io/badge/Synthetic%20Data-None-E63946?style=for-the-badge&labelColor=0d1529)
 
 | Dataset | Source | Coverage |
 |---|---|---|
 | State-wise accidents & fatalities | OpenCity (MoRTH structured) | 36 states, 2019–2023 |
-| **2024 state-wise data** | **Manually extracted from MoRTH 2024 PDF — Table 5.1 & 5.6** | 36 states, 2024 |
-| **Time-of-day accident slabs** | **Manually extracted from MoRTH 2024 PDF — Table 7.3** | 8 slabs, 2020–2024 |
+| **2024 state-wise data** | **Manually extracted — MoRTH 2024 PDF Table 5.1 & 5.6** | 36 states, 2024 |
+| **Time-of-day accident slabs** | **Manually extracted — MoRTH 2024 PDF Table 7.3** | 8 slabs, 2020–2024 |
 | Violation type fatalities | OpenCity (MoRTH structured) | 6 categories, 2023 |
 | Road user fatalities | OpenCity (MoRTH structured) | 10 categories, 2023 |
 | Large cities accident data | OpenCity (MoRTH structured) | 51 cities, 2023 |
-| Vehicle & road density | OpenCity (MoRTH structured) | National trend |
 
-> ⚠️ 2024 data was incorporated the **same month** the MoRTH report was publicly released (June 2026) — making this the most current public analysis of India road accidents available.
-
-**Primary source:** Ministry of Road Transport & Highways — *"Road Accidents in India"* reports, 2019–2024. [morth.gov.in](https://morth.gov.in)
+> ⚠️ 2024 data incorporated the **same month** MoRTH publicly released it (June 2026) — most current public analysis available.
 
 ---
 
@@ -74,15 +77,15 @@
 
 <table>
 <tr>
-<td align="center" width="12.5%"><h2>4,87,707</h2><b>Accidents in 2024</b><br><sub>+1.5% over 2023</sub></td>
-<td align="center" width="12.5%"><h2>1,77,175</h2><b>Fatalities in 2024</b><br><sub>+2.5% over 2023</sub></td>
-<td align="center" width="12.5%"><h2>10x</h2><b>Risk gap</b><br><sub>Bihar vs Kerala</sub></td>
-<td align="center" width="12.5%"><h2>68.1%</h2><b>Deaths from speeding</b><br><sub>Not drunk driving</sub></td>
+<td align="center" width="25%"><h2>4,87,707</h2><b>Accidents in 2024</b><br><sub>+1.5% over 2023</sub></td>
+<td align="center" width="25%"><h2>1,77,175</h2><b>Fatalities in 2024</b><br><sub>+2.5% over 2023</sub></td>
+<td align="center" width="25%"><h2>10x</h2><b>Bihar vs Kerala</b><br><sub>fatality rate gap</sub></td>
+<td align="center" width="25%"><h2>68.1%</h2><b>Deaths from speeding</b><br><sub>not drunk driving</sub></td>
 </tr>
 <tr>
-<td align="center"><h2>21.1%</h2><b>Accidents at 18–21hrs</b><br><sub>Deadliest time window</sub></td>
+<td align="center"><h2>21.1%</h2><b>Accidents 18–21hrs</b><br><sub>deadliest window</sub></td>
 <td align="center"><h2>+31%</h2><b>Post-COVID surge</b><br><sub>2020 → 2024</sub></td>
-<td align="center"><h2>0.3633</h2><b>National fatality rate</b><br><sub>Deaths per accident</sub></td>
+<td align="center"><h2>0.3633</h2><b>National fatality rate</b><br><sub>deaths per accident</sub></td>
 <td align="center"><h2>2 lakh</h2><b>Projected by 2026–27</b><br><sub>Prophet forecast</sub></td>
 </tr>
 </table>
@@ -91,200 +94,159 @@
 
 ---
 
-## 🔍 6 Findings That Tell the Real Story
+## 🔬 What The Data Actually Says
 
-### ![01](https://img.shields.io/badge/01-22c55e?style=flat-square) Raw Accident Count Is a Misleading Safety Metric
+**① Raw accident count is a misleading safety metric**
 
-> Tamil Nadu has 67,526 accidents in 2024 — the most in India. Bihar has only 11,610. So Tamil Nadu is more dangerous, right?
+```
+Tamil Nadu  → 67,526 accidents → 18,449 deaths → rate: 0.27
+Bihar       → 11,610 accidents →  9,347 deaths → rate: 0.81  ← most dangerous
+Kerala      → 48,834 accidents →  3,880 deaths → rate: 0.08  ← safest
+```
 
-**Wrong.** When we normalize by fatality rate (deaths per accident):
+Bihar kills someone in **8 out of 10 accidents.** Tamil Nadu in 3. Kerala in less than 1. The headline ranking hides this completely.
 
-| State | Accidents | Fatality Rate | Risk Rank |
-|---|---|---|---|
-| Tamil Nadu | 67,526 | 0.2732 | #23 |
-| Bihar | 11,610 | **0.8051** | **#1** |
-| Kerala | 48,834 | 0.0795 | #36 (safest) |
+<br>
 
-Bihar kills someone in **8 out of 10 accidents.** Tamil Nadu kills in 3 out of 10. Kerala in less than 1 out of 10.
+**② The time you drive matters more than where you drive**
+
+```
+03:00–06:00  ██░░░░░░░░░░░░░░  4.8%   ← safest
+18:00–21:00  █████████████████ 21.1%  ← 102,897 accidents
+```
+Evening commute + low light + fatigue. One 3-hour window. 1 in 5 of all accidents.
+
+<br>
+
+**③ Everyone blames drunk driving. The data doesn't.**
+
+| What kills | Share |
+|---|---|
+| 🚗 Over-speeding | **68.1%** |
+| 🍺 Drunk driving | 2.1% |
+| 📱 Mobile phone | 1.7% |
+
+Speeding kills **32x more people** than drunk driving. Awareness campaigns are targeting the wrong problem.
+
+<br>
+
+**④ The Bihar problem is infrastructure, not behaviour**
+
+```
+r = -0.086  |  p = 0.68  |  ✗ NOT SIGNIFICANT
+```
+Busier roads are **not** more deadly per crash. Bihar's crisis is trauma care access and road quality — not driver behaviour.
+
+**Accidents ↔ Fatalities: r = 0.816, p < 0.0001 ✓**
+
+<br>
+
+**⑤ COVID was a pause, not a turning point**
+
+```
+2020  ▼ 372,181 accidents    (lockdown dip)
+2021  ▲ 412,432
+2022  ▲ 461,312
+2023  ▲ 480,583
+2024  ▲ 487,707              (+31% from 2020)
+```
+Fatality rate stuck at ~0.36 for 5 years. Road safety spend went up. Outcomes didn't move.
+
+<br>
+
+**⑥ Where it's heading**
+
+*Prophet model · 6 years training data · 80% confidence*
+
+```
+2024 →  177,175  (actual)
+2025 →  188,512  [178,166 – 198,447]
+2026 →  194,481  [184,033 – 204,429]
+2027 →  ~200,000  ← crosses 2 lakh
+```
 
 ---
 
-### ![02](https://img.shields.io/badge/02-3b82f6?style=flat-square) The 18:00–21:00 Window Kills More Than Any Other
+## 📐 Statistical Layer
 
-> One 3-hour window accounts for 1 in 5 of all road accidents in India.
+*Not just charts — actual hypothesis testing*
 
-```
-06:00–09:00  ████████░░░░░░░░░░░░░░░░░░░░░░  10.1%
-09:00–12:00  ████████████░░░░░░░░░░░░░░░░░░  14.0%
-12:00–15:00  ████████████░░░░░░░░░░░░░░░░░░  14.6%
-15:00–18:00  ██████████████░░░░░░░░░░░░░░░░  17.4%
-18:00–21:00  █████████████████░░░░░░░░░░░░░  21.1%  ← PEAK
-21:00–24:00  █████████░░░░░░░░░░░░░░░░░░░░░  11.5%
-00:00–03:00  ████░░░░░░░░░░░░░░░░░░░░░░░░░░   5.1%
-03:00–06:00  ████░░░░░░░░░░░░░░░░░░░░░░░░░░   4.8%  ← SAFEST
-```
-
----
-
-### ![03](https://img.shields.io/badge/03-f59e0b?style=flat-square) The Real Killer Is Speed, Not Drunk Driving
-
-| Cause | Fatalities (2023) | Share |
+| Test | Result | Meaning |
 |---|---|---|
-| **Over-speeding** | **1,17,682** | **68.07%** |
-| Others | 38,400 | 22.21% |
-| Wrong side / Lane indiscipline | 9,432 | 5.46% |
-| Drunk driving | 3,674 | 2.13% |
-| Mobile phone use | 2,884 | 1.67% |
-| Jumping red light | 818 | 0.47% |
-
-Over-speeding kills **32x more people than drunk driving.**
+| Accidents ↔ Fatalities | r=0.816, p<0.0001 ✓ | Volume drives deaths at state level |
+| Log(Accidents) ↔ Fatality Rate | r=-0.086, p=0.68 ✗ | Busy roads ≠ more dangerous per crash |
+| YoY Accidents ↔ YoY Fatalities | r=0.533, p=0.006 ✓ | Rising accidents predict rising deaths |
+| OLS slope | 0.2652 deaths/accident | Each additional accident → +0.27 fatalities |
 
 ---
 
-### ![04](https://img.shields.io/badge/04-ef4444?style=flat-square) Bihar's Roads Have a Trauma Care Problem, Not Just a Speeding Problem
-
-OLS regression — Log(Accidents) vs fatality rate: **r = -0.086, p = 0.68 — not significant.**
-Busier roads are not more dangerous per crash. Bihar's crisis is infrastructure and trauma care access.
-
-**Accidents vs Fatalities: r = 0.816, p < 0.0001 ✓**
-
----
-
-### ![05](https://img.shields.io/badge/05-a855f7?style=flat-square) COVID Caused a Dip, But India Is Now On a Steeper Trajectory
-
-| Year | Accidents | Fatalities |
-|---|---|---|
-| 2019 | 4,56,959 | 1,58,984 |
-| 2020 | 3,72,181 | 1,38,383 |
-| 2021 | 4,12,432 | 1,53,972 |
-| 2022 | 4,61,312 | 1,68,491 |
-| 2023 | 4,80,583 | 1,72,890 |
-| 2024 | **4,87,707** | **1,77,175** |
-
-National fatality rate stuck at ~0.36 for 5 consecutive years.
-
----
-
-### ![06](https://img.shields.io/badge/06-06b6d4?style=flat-square) India Is On Track to Cross 2 Lakh Fatalities by 2026–27
-
-| Year | Accident Forecast | Fatality Forecast |
-|---|---|---|
-| 2025 | 5,13,042 [4,69,290–5,55,542] | 1,88,512 [1,78,166–1,98,447] |
-| 2026 | 5,28,118 [4,86,715–5,67,928] | **1,94,481 [1,84,033–2,04,429]** |
-| 2027 | ~5,43,000 | **~2,00,000** |
-
----
-
-## 🛠️ Tech Stack
-
-**Languages**
-
-![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-FF6F00?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**Data & Analysis**
-
-![Pandas](https://img.shields.io/badge/PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![SciPy](https://img.shields.io/badge/SCIPY-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
-![Prophet](https://img.shields.io/badge/PROPHET-FF6F61?style=for-the-badge)
-
-**Geospatial**
-
-![Folium](https://img.shields.io/badge/FOLIUM-77B829?style=for-the-badge)
-![GeoPandas](https://img.shields.io/badge/GEOPANDAS-139C5A?style=for-the-badge)
-
-**Database & BI**
-
-![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/POWER%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
----
-
-## 🏗️ How It Was Built
+## 🏗️ Pipeline
 
 ```
-📥 RAW DATA            🔧 PYTHON PIPELINE           🗄️ POSTGRESQL         📊 OUTPUT
-───────────────        ──────────────────────        ──────────────        ──────────────
-15 MoRTH CSVs    →    01_clean_merge.ipynb     →    state_master     →    Power BI Dashboard
-PDF (2024 data)  →    02_geospatial_map.ipynb  →    time_of_day      →    India Risk Maps
-Time-of-day PDF  →    03_forecasting.ipynb     →    violation_type   →    Forecast Charts
-36 states        →    04_correlation.ipynb     →    large_cities     →    Correlation Matrix
-6 years          →    5 SQL queries            →    10 tables total  →    Regression Plots
+MoRTH PDFs + OpenCity CSVs
+        ↓
+   Python cleaning  (15 files · 6 years · 36 states)
+        ↓
+   PostgreSQL 16  (10 tables · window functions · CTEs)
+        ↓
+        ├── Folium → 2 interactive India maps
+        ├── Prophet → fatality forecast 2025–2027
+        ├── scipy + statsmodels → correlation + OLS regression
+        └── Power BI → Intelligence Center dashboard
 ```
-
-### 📁 Project Structure
 
 ```
 India_Road_Accident_Intelligence/
-├── 📂 data/
-│   ├── raw/                    ← 15 original source CSVs (MoRTH + PDF extracts)
-│   └── cleaned/                ← Processed tables ready for PostgreSQL
-├── 📂 notebooks/
+├── notebooks/
 │   ├── 01_clean_merge.ipynb
 │   ├── 02_geospatial_map.ipynb
 │   ├── 03_forecasting.ipynb
 │   └── 04_correlation_regression.ipynb
-├── 📂 sql/
+├── sql/
 │   ├── 01_state_risk_ranking.sql
 │   ├── 02_yoy_fatality_trend.sql
 │   ├── 03_national_trend.sql
 │   ├── 04_time_of_day_peak.sql
 │   └── 05_violation_fatality_share.sql
-├── 📂 outputs/
-│   ├── india_risk_map.html
-│   ├── india_accidents_map.html
-│   ├── forecast_chart.png
-│   ├── correlation_heatmap.png
-│   ├── regression_scatter.png
-│   └── state_fatality_trends.png
-└── README.md
+├── data/raw/       ← 15 MoRTH source files
+└── outputs/        ← maps, charts, dashboard
 ```
 
 <details>
-<summary><b>⚙️ Reproduce This Project</b></summary>
+<summary>Run it yourself</summary>
 
 ```bash
 git clone https://github.com/IamShariqMukadam/India_Road_Accident_Intelligence
 cd India_Road_Accident_Intelligence
-python -m venv venv && source venv/bin/activate
-pip install pandas numpy matplotlib seaborn sqlalchemy psycopg2-binary \
-            folium geopandas requests prophet scipy statsmodels
+pip install pandas numpy matplotlib seaborn folium geopandas \
+            prophet scipy statsmodels sqlalchemy psycopg2-binary
 
-sudo service postgresql start
 sudo -u postgres psql -c "CREATE DATABASE road_accident_db;"
-
-# Run notebooks in order 01 → 04
-# Run SQL queries
-psql -U postgres -h localhost -d road_accident_db -f sql/01_state_risk_ranking.sql
+# Run notebooks 01 → 04 in order
 ```
 
 </details>
 
 ---
 
-## 💡 Business Applications
+## 💡 Who This Is For
 
-**Insurance (ACKO, Digit, Bajaj Allianz, HDFC Ergo)**
-- Bihar/Jharkhand/Punjab flagged as highest-risk for telematics-based premium pricing
-- 18:00–21:00 window → time-of-day risk loading for commercial vehicle policies
+**Insurance** — ACKO, Digit, Bajaj Allianz, HDFC Ergo → risk pricing, telematics, UBI products
 
-**Logistics & Fleet (Delhivery, Blue Dart, Porter, Ola, Rapido)**
-- Fatality rate normalization identifies true high-risk corridors vs high-volume ones
-- YoY trend analysis for proactive fleet safety routing
+**Logistics & Rideshare** — Delhivery, Ola, Porter, Rapido → fleet safety, route risk scoring
 
-**Consulting (Deloitte, EY, McKinsey)**
-- Prophet forecast supports 2025–2027 road safety budget allocation
-- State cluster segmentation for intervention targeting
+**Consulting** — Deloitte, EY, McKinsey → government road safety mandates, BFSI clients
 
 ---
 
 <div align="center">
 
-**Built on Verified Government Data by Shariq Mukadam**
-📍 Pune, Maharashtra | BCA Final Year
+**Shariq Mukadam** · Pune · BCA Final Year
 
-[![GitHub](https://img.shields.io/badge/GitHub-IamShariqMukadam-181717?style=for-the-badge&logo=github)](https://github.com/IamShariqMukadam)
+[![GitHub](https://img.shields.io/badge/GitHub-IamShariqMukadam-0d1529?style=for-the-badge&logo=github&logoColor=00d4aa)](https://github.com/IamShariqMukadam)
 
-*If this repo helped you, give it a ⭐*
+*All data from official MoRTH government publications. No Kaggle. No synthetic data.*
+
+⭐ Star if useful
 
 </div>
