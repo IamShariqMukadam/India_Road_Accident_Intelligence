@@ -33,13 +33,13 @@
 ## 📸 Dashboard & Visuals
 
 ### 🧠 Power BI Intelligence Center
-<img src="/outputs/Pasted image.png" width="100%" />
+<img src="/outputs/Dashboard.png" width="100%" />
 
 ### 🗺️ Two Maps. Same Country. Completely Different Stories.
 
 | Fatality Rate *(what actually matters)* | Raw Accident Count *(what everyone shows)* |
 |---|---|
-| [![Risk Map](/outputs/India_risk_map_pic.png)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html) | [![Accidents Map](/outputs/India_accidents_map_pic.png)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_accidents_map.html) |
+| [![Risk Map](outputs/India_risk_map_pic.png)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html) | [![Accidents Map](outputs/India_accidents_map_pic.png)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_accidents_map.html) |
 
 *Hover any state for live stats · Click to open full interactive map*
 
@@ -75,22 +75,19 @@
 
 ## ⚡ The Numbers That Matter
 
-<table>
-<tr>
-<td align="center" width="25%"><h2>4,87,707</h2><b>Accidents in 2024</b><br><sub>+1.5% over 2023</sub></td>
-<td align="center" width="25%"><h2>1,77,175</h2><b>Fatalities in 2024</b><br><sub>+2.5% over 2023</sub></td>
-<td align="center" width="25%"><h2>10x</h2><b>Bihar vs Kerala</b><br><sub>fatality rate gap</sub></td>
-<td align="center" width="25%"><h2>68.1%</h2><b>Deaths from speeding</b><br><sub>not drunk driving</sub></td>
-</tr>
-<tr>
-<td align="center"><h2>21.1%</h2><b>Accidents 18–21hrs</b><br><sub>deadliest window</sub></td>
-<td align="center"><h2>+31%</h2><b>Post-COVID surge</b><br><sub>2020 → 2024</sub></td>
-<td align="center"><h2>0.3633</h2><b>National fatality rate</b><br><sub>deaths per accident</sub></td>
-<td align="center"><h2>2 lakh</h2><b>Projected by 2026–27</b><br><sub>Prophet forecast</sub></td>
-</tr>
-</table>
-
-</div>
+> 🚗 **4,87,707 accidents** in 2024 — up +1.5% over 2023
+>
+> 💀 **1,77,175 fatalities** in 2024 — up +2.5% over 2023
+>
+> ⚠️ **Bihar is 10x more dangerous per crash than Kerala** — raw counts hide this completely
+>
+> 🏎️ **68.1% of all road deaths** caused by speeding — drunk driving accounts for just 2.1%
+>
+> 🕕 **21.1% of accidents happen in 3 hours** (18:00–21:00) — the single deadliest window
+>
+> 📈 **+31% accident surge since 2020** — fatality rate stuck at 0.36 for 5 consecutive years
+>
+> 🔮 **India projected to cross 2 lakh fatalities by 2026–27** — Prophet model, 80% confidence
 
 ---
 
