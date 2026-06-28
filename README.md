@@ -19,7 +19,7 @@
 
 <br>
 
-[![Dashboard](https://img.shields.io/badge/📊%20VIEW%20DASHBOARD-POWER%20BI%20→-00d4aa?style=for-the-badge&labelColor=0d1529&color=00d4aa)](outputs/dashboard_screenshot.png) [![Maps](https://img.shields.io/badge/🗺️%20LIVE%20MAPS-GITHUB%20PAGES%20→-E63946?style=for-the-badge&labelColor=0d1529&color=E63946)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html)
+[![Dashboard](https://img.shields.io/badge/📊%20VIEW%20DASHBOARD-POWER%20BI%20→-00d4aa?style=for-the-badge&labelColor=0d1529&color=00d4aa)](/outputs/Pasted%20image.png) [![Maps](https://img.shields.io/badge/🗺️%20LIVE%20MAPS-GITHUB%20PAGES%20→-E63946?style=for-the-badge&labelColor=0d1529&color=E63946)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html)
 
 <br>
 
@@ -33,13 +33,13 @@
 ## 📸 Dashboard & Visuals
 
 ### 🧠 Power BI Intelligence Center
-<img src="outputs/dashboard_screenshot.png" width="100%" />
+<img src="/outputs/Pasted image.png" width="100%" />
 
 ### 🗺️ Two Maps. Same Country. Completely Different Stories.
 
 | Fatality Rate *(what actually matters)* | Raw Accident Count *(what everyone shows)* |
 |---|---|
-| [![Risk Map](outputs/india_risk_map_screenshot.png)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html) | [![Accidents Map](outputs/india_accidents_map_screenshot.png)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_accidents_map.html) |
+| [![Risk Map](/outputs/india_risk_map.html)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_risk_map.html) | [![Accidents Map](/outputs/india_accidents_map.html)](https://IamShariqMukadam.github.io/India_Road_Accident_Intelligence/outputs/india_accidents_map.html) |
 
 *Hover any state for live stats · Click to open full interactive map*
 
